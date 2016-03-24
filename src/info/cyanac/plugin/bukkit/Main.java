@@ -166,7 +166,7 @@ public class Main extends JavaPlugin implements Listener {
 		
 		try {
 			
-			URL file = new URL("http://api.cyanac.info/bl/words/get/");
+			URL file = new URL("https://api.cyanac.info/bl/words/get/");
 			
 			File cacheDir = new File("plugins/CyanAC/cache");
 			
